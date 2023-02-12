@@ -1,0 +1,10 @@
+.headerButton {
+  /*   font-size: 1.25rem; */
+    
+    /* These two properties are by default not inherited, so explicitly set */
+ /*   background-color: inherit;
+    border: none;  */
+
+    /* color should be inherited based on css rules. Instead, kept seeing 'ButtonText' as the default, so explicitly inherited */
+    /* color: inherit; */
+}
