@@ -4,9 +4,10 @@ import styles from './Button.module.css';
 
 const Button = (props) => {
 
+    console.log('in Burron with props',props);
 
     return (
-        <button type="button" onClick={props.btnAction} className={styles.headerButton}>{props.label}</button>
+        <button type={props.type} onClick={props.btnAction} className={styles.headerButton}>{props.children}</button>
     )
 
 
