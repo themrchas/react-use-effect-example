@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Button from '../components/UI/Button';
-import Login from './Login';
 
 import styles from './PageHeader.module.css'
 
@@ -13,15 +12,17 @@ const menuOptions =
    
             <nav className={styles.nav}>
                     <ul>
-                        <li><Button label="Users" /></li>
-                        <li><Button label="Admin" /></li>
-                        <li><Button label="Login" btnAction={""}/></li>
+                        <li><Button label="Users" />Users</li>
+                        <li><Button label="Admin" />Admin</li>
+                        <li><Button label="Login" btnAction={""}/>Logout</li>
                     </ul>
             </nav>;
 
 
   
-const Header = (props) => {
+const PageHeader = (props) => {
+
+  //  alert(`props.isLoggedIn is ${props.isLoggedIn}`)
 
     return (
 
@@ -46,4 +47,4 @@ const Header = (props) => {
 
 }
 
-export default Header;
+export default PageHeader;

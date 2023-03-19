@@ -1,5 +1,11 @@
-.headerButton {
-  /*   font-size: 1.25rem; */
+.loginButton {
+   font-size: 1.0rem; 
+   font-weight: bold;
+   display: block;
+   margin: 1rem 0;
+   padding: 0px 10%;
+
+     
     
     /* These two properties are by default not inherited, so explicitly set */
  /*   background-color: inherit;
